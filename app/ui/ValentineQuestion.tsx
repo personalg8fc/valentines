@@ -65,7 +65,7 @@ export default function ValentineQuestion() {
   const movingRef = useRef<boolean>(false);
 
   const lines = useMemo(
-    () => ["Dili ko musugot! 😈", "Akoa raka 💗", "Naay gamay 😳", "Bahala ka! 😄", "Ambot 😅"],
+    () => ["Dili ko! 😈", "Akoa raka 💗", "Naay gamay 😳", "Bahala ka! 😄", "Ambot 😅", "Mamugos? 😅"],
     []
   );
   const [noText, setNoText] = useState<string>("No 😅");
@@ -284,9 +284,9 @@ export default function ValentineQuestion() {
       </div>
 
       <main className={styles.card}>
-        <div className={styles.badge}>💖 Valentine Invite</div>
+        <div className={styles.badge}>Happy Valentine's Day!</div>
         <h1 className={styles.title}>Joella</h1>
-        <p className={styles.subtitle}>Will you be my Valentine’s date? 💌</p>
+        <p className={styles.subtitle}>Will you be my Valentine’s date?</p>
 
         <div
           ref={arenaRef}
@@ -361,7 +361,7 @@ export default function ValentineQuestion() {
             </button>
           )}
 
-          <p className={styles.hint}>(Tap anywhere for hearts ✨)</p>
+          <p className={styles.hint}>Ayaw pindota ang no kay d ko musugot. Dili jud!</p>
         </div>
 
         <div className={styles.footer}>

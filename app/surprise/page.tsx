@@ -220,7 +220,6 @@ export default function SurprisePage() {
           <div className={styles.chip}>💗</div>
           <h1 className={styles.title}>HAPPY VALENTINE’S DAY JOELLA!</h1>
           <p className={styles.subtitle}>I LOVE YOU SO MUCH 💞</p>
-          <p className={styles.hint}>Tap the bouquet for heart sparks ✨</p>
         </header>
 
         <section
