@@ -1,12 +1,5 @@
-import Bouquet from "./ui/Bouquet";
+import ValentineQuestion from "./ui/ValentineQuestion";
 
-export default function Page() {
-  return (
-    <main style={{ minHeight: "100vh" }}>
-      <Bouquet
-        headline="I LOVE YOU JOELLA!"
-        fromText="from: JHOMA GO"
-      />
-    </main>
-  );
+export default function Home() {
+  return <ValentineQuestion />;
 }
